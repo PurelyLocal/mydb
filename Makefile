@@ -1,4 +1,4 @@
-.PHONY: serve build bundle new-mi new-prb new-journal
+.PHONY: serve build bundle new-mi new-prb new-journal test
 
 serve:
 	python3 scripts/build_indexes.py
@@ -20,6 +20,9 @@ new-prb:
 
 new-journal:
 	python3 scripts/new_page.py journal --author $(AUTHOR)
+
+test:
+	pytest tests/
 
 # GitFlow Operations
 .PHONY: feature-start feature-finish release-start release-finish hotfix-start hotfix-finish
