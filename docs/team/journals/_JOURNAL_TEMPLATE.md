@@ -1,4 +1,8 @@
 ---
+id: journal-template
+status: Template
+---
+
 author: <name>
 date: YYYY-MM-DD
 jira: []

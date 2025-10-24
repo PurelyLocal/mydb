@@ -1,4 +1,8 @@
 ---
+id: chat-backup-2025-10-24
+status: Archived
+---
+
 title: Setup Python Environment and MkDocs Configuration
 date: 2025-10-24
 author: nathan
