@@ -69,4 +69,8 @@ jobs:
       - name: Deploy Bundles
         run: |
           echo "Deploying bundles to environment..."
-          # Add deployment commands here
+          # Example deployment command
+          rsync -av site-public/ user@server:/var/www/public
+          rsync -av site-internal/ user@server:/var/www/internal
+          rsync -av site-admin/ user@server:/var/www/admin
+          rsync -av site-stakeholder/ user@server:/var/www/stakeholder
