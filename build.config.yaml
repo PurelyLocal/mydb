@@ -1,0 +1,26 @@
+bundles:
+  public:
+    include:
+      - docs/home/**
+      - docs/ways-of-working/**
+      - docs/scrum/**
+    redact:
+      fields: [impacted_metrics, timeline]
+      require_public_summary: true
+  internal:
+    include: [docs/**]
+    redact:
+      fields: []
+  admin:
+    include: [docs/**]
+    redact:
+      fields: []
+  stakeholder:
+    include:
+      - docs/home/**
+      - docs/incidents/**
+      - docs/problems/index.md
+      - docs/okrs/**
+      - docs/scrum/**
+    redact:
+      fields: [timeline, channels]

@@ -1,0 +1,39 @@
+site_name: TeamDocs
+site_description: Team ways of working, incidents, problems, OKRs
+site_url: https://docs.example.com
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.indexes
+    - toc.follow
+    - content.code.copy
+markdown_extensions:
+  - admonition
+  - def_list
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+plugins:
+  - search
+  - awesome-pages
+  - section-index
+  - glightbox
+  - git-revision-date-localized:
+      enable_creation_date: true
+nav:
+  - Home: docs/home/index.md
+  - Ways of Working: docs/ways-of-working/index.md
+  - Incidents: docs/incidents/index.md
+  - Problems: docs/problems/index.md
+  - OKRs: docs/okrs/index.md
+  - Team: docs/team/index.md
+  - Scrum: docs/scrum/index.md
+extra_css:
+  - docs/_assets/custom.css
+extra_javascript:
+  - docs/_assets/custom.js

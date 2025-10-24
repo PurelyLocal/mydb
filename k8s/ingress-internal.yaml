@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: teamdocs-internal
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    # oauth2-proxy annotations go here
+spec:
+  rules:
+    - host: internal.docs.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: teamdocs-svc
+                port: { number: 80 }

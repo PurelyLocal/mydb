@@ -1,0 +1,4 @@
+# Protect key areas
+/docs/ways-of-working/* @your-org/engineering-managers
+/docs/incidents/** @your-org/sre-leads
+/scripts/** @your-org/devops

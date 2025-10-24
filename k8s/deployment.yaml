@@ -1,0 +1,13 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: teamdocs }
+spec:
+  replicas: 2
+  selector: { matchLabels: { app: teamdocs } }
+  template:
+    metadata: { labels: { app: teamdocs } }
+    spec:
+      containers:
+        - name: web
+          image: ghcr.io/your-org/teamdocs:site
+          ports: [{ containerPort: 80 }]

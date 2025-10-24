@@ -1,0 +1,7 @@
+pyyaml
+python-frontmatter
+jinja2
+tabulate
+requests
+
+python-dateutil
