@@ -5,3 +5,5 @@ tabulate
 requests
 
 python-dateutil
+
+pytest
