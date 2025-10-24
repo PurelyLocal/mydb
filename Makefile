@@ -56,3 +56,6 @@ hotfix-finish:
 	git merge hotfix/$(HOTFIX_NAME)
 	git branch -d hotfix/$(HOTFIX_NAME)
 	git push origin main
+
+release-notes:
+	python3 scripts/generate_release_notes.py --since $(SINCE_TAG) --version $(VERSION) --repo $(REPO) --token $(GITHUB_TOKEN)

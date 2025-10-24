@@ -1,3 +1,7 @@
+---
+id: documentation-guidelines
+---
+
 # Documentation Guidelines
 
 ## Overview

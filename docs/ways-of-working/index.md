@@ -1,3 +1,7 @@
+---
+id: ways-of-working-index
+---
+
 # Ways of Working
 Our principles, ceremonies, SLAs, and operating model.
 

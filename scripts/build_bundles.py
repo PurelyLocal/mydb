@@ -40,7 +40,6 @@ for bundle, spec in cfg["bundles"].items():
     COPY . /usr/share/nginx/html
     EXPOSE 80
     """
-    (out / "Dockerfile").write_text(dockerfile.strip()+"
-", encoding="utf-8")
+    (out / "Dockerfile").write_text(dockerfile.strip() + "\n", encoding="utf-8")
 
     print(f"Built bundle: {bundle} → {out} (with Dockerfile)")
