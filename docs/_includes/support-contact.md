@@ -1,5 +1,6 @@
 ---
 id: support-contact
+status: Draft
 ---
 
 **Need help?**

@@ -1,5 +1,6 @@
 ---
 id: documentation-guidelines
+status: Draft
 ---
 
 # Documentation Guidelines

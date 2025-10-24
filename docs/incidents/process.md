@@ -1,3 +1,8 @@
+---
+id: incidents-process
+status: Draft
+---
+
 # Incident Management Process
 
 ## Incident Classification

@@ -1,3 +1,8 @@
+---
+id: team-structure
+status: Draft
+---
+
 # Team Structure and Organization
 
 ## Overview

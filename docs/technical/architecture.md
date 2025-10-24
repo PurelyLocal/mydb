@@ -1,3 +1,8 @@
+---
+id: technical-architecture
+status: Draft
+---
+
 # Technical Architecture Guide
 
 ## System Overview

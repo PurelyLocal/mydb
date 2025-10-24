@@ -1,3 +1,8 @@
+---
+id: home-index
+status: Draft
+---
+
 # TeamDocs
 
 Welcome to the team portal. Use the left nav to explore.

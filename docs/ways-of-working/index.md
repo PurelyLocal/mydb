@@ -1,5 +1,6 @@
 ---
 id: ways-of-working-index
+status: Draft
 ---
 
 # Ways of Working

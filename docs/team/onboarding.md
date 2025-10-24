@@ -1,3 +1,8 @@
+---
+id: team-onboarding
+status: Draft
+---
+
 # Team Onboarding Guide
 
 ## Welcome to the Team! 👋

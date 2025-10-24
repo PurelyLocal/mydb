@@ -1,5 +1,5 @@
 ---
-id: KRO-OKR-001
+id: kro-okr-001
 quarter: 2025-Q4
 owner: nathan
 objective: Drive predictable, measurable reliability across NGPOS
@@ -16,5 +16,6 @@ krs:
     current: 63
     unit: minutes
 last_update: 2025-10-24
+status: Draft
 ---
 # OKR: Reliability Outcomes Q4
